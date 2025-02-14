@@ -2,7 +2,7 @@ import cv2
 import os
 import string
 # Read the image
-img = cv2.imread("Sample_Image.png")  # Ensure this path is correct
+img = cv2.imread("Sample_Img.png")  # Ensure this path is correct
 # Check if the image is read correctly
 if img is None:
     print("Image not found or path is incorrect")
